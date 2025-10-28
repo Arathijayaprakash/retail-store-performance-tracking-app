@@ -1,6 +1,14 @@
+import Link from "next/link";
 
 export default function Home() {
   return (
-   <h1>Retail Store Performance Tracker App</h1>
+    <div>
+      <h1>Retail Store Performance Tracker App</h1>
+      <Link
+        href="/login"
+        className="items-center gap-5 self-start rounded-lg bg-blue-500 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
+      >
+        <span>Log in</span>
+      </Link>    </div>
   );
 }
